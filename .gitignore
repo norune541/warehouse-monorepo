@@ -1,0 +1,64 @@
+# Dependencies
+
+node_modules/
+
+# Bun
+
+.bun/
+bun.lockb
+
+# Environment
+
+.env
+.env.*
+!.env.example
+
+# Build output
+
+dist/
+build/
+out/
+
+# Vite
+
+.vite/
+
+# Coverage
+
+coverage/
+
+# Test / debug output
+
+.nyc_output/
+*.log
+
+# TypeScript
+
+*.tsbuildinfo
+
+# IDEs / editors
+
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+
+Thumbs.db
+
+# Temporary files
+
+.tmp/
+temp/
+
+# Generated files
+
+*.generated.*
+
+# Certificates / local keys
+
+*.pem
+*.key
+*.crt

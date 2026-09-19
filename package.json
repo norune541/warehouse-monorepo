@@ -1,0 +1,24 @@
+{
+  "name": "warehouse",
+  "author": "Ken",
+  "license": "MIT",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "backend:dev": "bun --filter @warehouse/backend start:dev",
+    "backend:build": "bun --filter @warehouse/backend build",
+    "backend:start": "bun --filter @warehouse/backend start",
+    "backend:format": "bun --filter @warehouse/backend format",
+    "backend:lint": "bun --filter @warehouse/backend lint",
+    "backend:test": "bun --filter @warehouse/backend test",
+    "frontend:dev": "bun --filter @warehouse/frontend dev",
+    "frontend:build": "bun --filter @warehouse/frontend build",
+    "frontend:lint": "bun --filter @warehouse/frontend lint",
+    "frontend:preview": "bun --filter @warehouse/frontend preview"
+  },
+  "workspaces": [
+    "backend",
+    "frontend",
+    "shared"
+  ]
+}
