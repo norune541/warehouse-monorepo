@@ -10,9 +10,10 @@
         "preview": "vite preview"
     },
     "dependencies": {
+        "@clerk/react": "^6.16.1",
+        "@warehouse/shared": "workspace:*",
         "react": "^19.2.8",
-        "react-dom": "^19.2.8",
-        "@warehouse/shared": "workspace:*"
+        "react-dom": "^19.2.8"
     },
     "devDependencies": {
         "@types/node": "^24.13.3",
