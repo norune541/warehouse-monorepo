@@ -20,5 +20,8 @@
     "backend",
     "frontend",
     "shared"
-  ]
+  ],
+  "devDependencies": {
+    "@types/bun": "^1.4.2"
+  }
 }
